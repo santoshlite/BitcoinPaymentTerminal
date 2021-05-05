@@ -1,0 +1,168 @@
+
+.Rectangle-1 {
+  width: 520px;
+  height: 500px;
+  border-radius: 10px;
+  -webkit-backdrop-filter: blur(15px);
+  backdrop-filter: blur(15px);
+  border: solid 0.5px #ffffff;
+  background-color: #f3f8ff;
+}
+
+.Rectangle-2 {
+  width: 520px;
+  height: 50px;
+  border: solid 0.5px #f1f1f1;
+  background-color: #ffffff;
+
+}
+
+.Ellipse-1 {
+  width: 13px;
+  height: 13px;
+  background-color: #ff2121;
+  border-radius:100%;
+  margin-right: 450px;
+  margin-top: 16px;
+}
+
+.Ellipse-2 {
+  width: 13px;
+  height: 13px;
+  background-color: #ffcc00;
+  border-radius:100%;
+  margin-bottom: -12px;
+  margin-right: 400px;
+  margin-top: -13px;
+ 
+  
+}
+
+.Ellipse-3 {
+  width: 13px;
+  height: 13px;
+  background-color: #13bb00;
+  border-radius:100%;
+  margin-right: 350px;
+ 
+}
+
+.send {
+  width: 22px;
+  height: 13.5px;
+  font-family: Arial;
+  font-size: 15px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.35;
+  letter-spacing: normal;
+  text-align: center;
+  color: #b8b8b8;
+}
+
+.BTC {
+ 
+  height: 13.5px;
+  font-family: Arial;
+  font-size: 23px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.35;
+  letter-spacing: normal;
+  text-align: center;
+  color: #000000;
+}
+
+.address {
+ 
+  height: 13.5px;
+  font-family: Arial;
+  font-size: 15px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.35;
+  letter-spacing: normal;
+  text-align: center;
+  color: #b8b8b8;
+}
+
+.to {
+  height: 13.5px;
+  
+  font-family: Arial;
+  font-size: 20px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.35;
+  letter-spacing: normal;
+  text-align: center;
+  color: #000000;
+}
+
+
+
+ .time{
+  width: 23.5px;
+  height: 13.5px;
+  font-family: Arial;
+  font-size: 20px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.35;
+  letter-spacing: normal;
+  text-align: center;
+  color: #000000;
+   margin-right: 25px;
+}
+
+.Rectangle-3 {
+  width: 137px;
+  height: 44px;
+  border-radius: 15px;
+  background-color: #0022ff;
+  border-radius: 30px;
+  
+}
+
+.paid {
+  width: 70px;
+  height: 13.5px;
+  font-family: Arial;
+  font-size: 20px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.35;
+  letter-spacing: normal;
+  text-align: center;
+  color: #ffffff;
+  
+}
+
+.delay {
+  width: 490px;
+  height: 24px;
+  font-family: Arial;
+  font-size: 17px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.33;
+  letter-spacing: normal;
+  text-align: center;
+  color: #b8b8b8;
+}
+
+.copy {
+  width: 45px;
+  height: 45px;
+  border-color: #f3f8ff;
+  border-radius: 30px;
+  
+	
+}

@@ -1,0 +1,70 @@
+<link href="http://maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<link href="pay.css" rel="stylesheet">
+<link href="bit.css" rel="stylesheet">
+
+<html id="body" ng-app="btc_app" ng-init="stdbtc=1;stdusd=0;_btc=100.0;" ng-controller="price">
+
+	<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no, user-scalable=no">
+	<!-- JS Libraries -->
+	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.6/angular.min.js"></script>		<!--		<script src="https://code.angularjs.org/1.6.6/angular-route.js"></script>-->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.js"></script
+		<!--		<script src="js/clipboard.js-master/dist/clipboard.min.js"></script>-->
+
+
+
+	<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js"
+			integrity="sha256-VazP97ZCwtekAsvgPBSUwPFKdrwD3unUfSGVYrahUqU="
+			crossorigin="anonymous"></script> 
+	<script src="USD-BTC-Converter-master/js/index.js"></script>
+
+
+	<title>Pay Demo</title>
+	</head>
+
+<!------ Include the above in your HEAD tag ---------->
+
+<body id="body" ng-init="stdbtc=1;stdusd=0;_btc=10;">
+
+
+
+<br><br><br><br><br><br><center><div class="Rectangle-1">
+<div class="Rectangle-2">
+<div class="Ellipse-1"></div>
+<div class="Ellipse-2"></div>
+<div class="Ellipse-3"></div></div><br>
+<br><div class="send">Send</div><br>
+<div class="BTC"><td id="copy_btc" scope="row" class="h3">{{ (_btc/btc) | number: 7}}</td></div><br><br>
+<div class="address">To address</div><br>
+<div class="to"><p id="p1">1BvBMSEYstWetqTFn5Au4m4GFg7xJaNVN2</p><button class="copy" onclick="copyToClipboard('#p1')"><img src ="copy.webp" width = "20"></button></div><br><br><br>
+<br><div class="time"><p id="demo">14:59</p></div><br><br>
+
+<center>
+
+<div class="Rectangle1">
+<br>
+<div class="Bitcoin">Pay</div>
+<br>
+
+</div>
+
+</center>
+
+
+</div>
+<br><div class="delay">You have 15 minutes to send funds otherwise the transaction will 
+be canceled</div>
+
+<br><br><br><br><h5><center>Made by </center></h5>
+
+
+</center>
+</body>
+</html>
+
+
+
+
+	

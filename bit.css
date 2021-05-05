@@ -1,0 +1,34 @@
+.Rectangle1 {
+  width: 200px;
+  height: 55px;
+  border-radius: 30px;
+  background-color: #0e47ff;
+}
+
+
+.Bitcoin {
+
+ 
+  font-family: Open Sans;
+  font-size: 22px;
+  margin-top: -10px;
+  font-weight: bold;
+  font-style: italic;
+  line-height: 1.3;
+  letter-spacing: normal;
+  text-align: center;
+  color: #ffffff;
+}
+
+#line{
+    text-align: center;
+}
+#line > div {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.Rectangle1:hover {
+  box-shadow: 1px 1px 25px 10px rgba(146, 148, 248, 0.4);
+}
+
