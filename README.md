@@ -21,7 +21,11 @@ As you can see, when I refresh the page, the price of bitcoin updates. So the pr
 
 - Download the folder on an empty file
 - Open the ```pay.html``` file
-
+- In our case, the transaction is $10 as we can see it here:
+```
+<body id="body" ng-init="stdbtc=1;stdusd=0;_btc=10;">
+```
+- If you want to change the value of the transaction, you just have to change the value of the ```_btc```
 ## Acknowledgement 🙏
 
 It was mainly made possible due to this repo that inspired me a lot :  [USD-BTC-Converter](https://github.com/ManuelVargas1251/USD-BTC-Converter) made by @ManuelVargas1251
