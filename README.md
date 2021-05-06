@@ -19,7 +19,7 @@ As you can see, when I refresh the page, the price of bitcoin updates. So the pr
 
 ## Acknowledgement 🙏
 
-It was mainly made possible due to this repo that inspired me a lot :  !(USD-BTC-Converter)[https://github.com/ManuelVargas1251/USD-BTC-Converter] made by @ManuelVargas1251
+It was mainly made possible due to this repo that inspired me a lot :  [USD-BTC-Converter](https://github.com/ManuelVargas1251/USD-BTC-Converter) made by @ManuelVargas1251
 
 ## Contribution
 
