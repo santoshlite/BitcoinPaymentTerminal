@@ -12,7 +12,15 @@ This solves the problem of **Bitcoin's volatility** when selling/buying somethin
 
 As you can see, when I refresh the page, the price of bitcoin updates. So the price adapts to the actual Bitcoin Price. 
 
-## How to use it
+## How to use it ⚒️
 
 - Download the folder on an empty file
 - Open the ```pay.html``` file
+
+## Acknowledgement 🙏
+
+It was mainly made possible due to this repo that inspired me a lot :  (USD-BTC-Converter)[https://github.com/ManuelVargas1251/USD-BTC-Converter] made by @ManuelVargas1251
+
+## Contribution
+
+Whatever you want, idea, suggestions, corretions, improvements... :)
