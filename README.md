@@ -4,4 +4,4 @@ This is a smarter **bitcoin payment terminal** that **updates** the price of the
 
 ## What does it look like
 
-Writing...
+![](bit.gif)
