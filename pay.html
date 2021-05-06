@@ -38,9 +38,10 @@
 <br><div class="send">Send</div><br>
 <div class="BTC"><td id="copy_btc" scope="row" class="h3">{{ (_btc/btc) | number: 7}}</td></div><br><br>
 <div class="address">To address</div><br>
-<div class="to"><p id="p1">1BvBMSEYstWetqTFn5Au4m4GFg7xJaNVN2</p><button class="copy" onclick="copyToClipboard('#p1')"><img src ="copy.webp" width = "20"></button></div><br><br><br>
-<br><div class="time"><p id="demo">14:59</p></div><br><br>
+<div class="to"><p title="Copy Text" id="text" onclick="copyElementText(this.id)">1BvBMSEYstWetqTFn5Au4m4GFg7xJaNVN2</p></div><br>
+<p class="delay">(If you want to copy this adress click on it)</p>
 
+<br><div class="time"><p id="time">15:00</p></div><br><br>
 <center>
 
 <div class="Rectangle1">
@@ -57,14 +58,36 @@
 <br><div class="delay">You have 15 minutes to send funds otherwise the transaction will 
 be canceled</div>
 
-<br><br><br><br><h5><center>Made by </center></h5>
+<br><br><br><br><h5><center>Made by ❤️ by Lenmo</center></h5>
 
+
+
+<script>
+function startTimer(duration, display) {
+    var timer = duration, minutes, seconds;
+    setInterval(function () {
+        minutes = parseInt(timer / 60, 10);
+        seconds = parseInt(timer % 60, 10);
+
+        minutes = minutes < 10 ? "0" + minutes : minutes;
+        seconds = seconds < 10 ? "0" + seconds : seconds;
+
+        display.textContent = minutes + ":" + seconds;
+
+        if (--timer < 0) {
+            timer = duration;
+        }
+    }, 1000);
+}
+
+window.onload = function () {
+    var fiveMinutes = 60 * 15,
+        display = document.querySelector('#time');
+    startTimer(fiveMinutes, display);
+};
+</script>
 
 </center>
 </body>
 </html>
 
-
-
-
-	
