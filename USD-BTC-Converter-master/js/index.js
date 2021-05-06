@@ -42,3 +42,13 @@ $("#update").click(function() {
 
 //cursor blinking focus; uncomment this for keyboard focus to be on your input
 $(".focus").focus();
+
+function copyElementText(id) {
+    var text = document.getElementById(id).innerText;
+    var elem = document.createElement("textarea");
+    document.body.appendChild(elem);
+    elem.value = text;
+    elem.select();
+    document.execCommand("copy");
+    document.body.removeChild(elem);
+}
