@@ -11,3 +11,8 @@ This solves the problem of **Bitcoin's volatility** when selling/buying somethin
 ![](bit.gif)
 
 As you can see, when I refresh the page, the price of bitcoin updates. So the price adapts to the actual Bitcoin Price. 
+
+## How to use it
+
+- Download the folder on an empty file
+- Open the ```pay.html``` file
