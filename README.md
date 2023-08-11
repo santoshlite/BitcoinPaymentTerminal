@@ -1,5 +1,5 @@
 # Bitcoin Payment Terminal 💸
-<i>Disclaimer : I'm looking for someone who can actually make the bitcoin transaction part on this project. If you can do it or if you are interested, please contact me here : santoshpassoubady@gmail.com </i>
+<i>Disclaimer : It's just a frontend, no backend. </i>
 
 This is a smarter **bitcoin payment terminal** that **updates** the price of the transaction **based on the actual price of bitcoin**. It doesn't actually make the transaction.
 
